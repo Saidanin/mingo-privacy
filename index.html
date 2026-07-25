@@ -1,16 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mingo — Privacy Policy</title>
 <style>
-  @font-face {
-    font-family: 'Display';
-    src: url(data:font/woff2;base64,) format('woff2');
-  }
-
   :root {
     --bg: #f6f2ee;
     --text: #2c2420;
     --muted: #8a7e76;
     --accent: #c45e3a;
-    --accent-soft: #f0d8ce;
     --card-bg: #fffbf8;
     --border: #e4ddd6;
     --heading: #1a1210;
@@ -23,7 +22,6 @@
       --text: #ddd5cf;
       --muted: #8a7e76;
       --accent: #e8956e;
-      --accent-soft: #2e2018;
       --card-bg: #1e1916;
       --border: #302822;
       --heading: #f0e8e2;
@@ -31,33 +29,7 @@
       --gradient-end: #c45e3a;
     }
   }
-  :root[data-theme="dark"] {
-    --bg: #161210;
-    --text: #ddd5cf;
-    --muted: #8a7e76;
-    --accent: #e8956e;
-    --accent-soft: #2e2018;
-    --card-bg: #1e1916;
-    --border: #302822;
-    --heading: #f0e8e2;
-    --gradient-start: #e8956e;
-    --gradient-end: #c45e3a;
-  }
-  :root[data-theme="light"] {
-    --bg: #f6f2ee;
-    --text: #2c2420;
-    --muted: #8a7e76;
-    --accent: #c45e3a;
-    --accent-soft: #f0d8ce;
-    --card-bg: #fffbf8;
-    --border: #e4ddd6;
-    --heading: #1a1210;
-    --gradient-start: #c45e3a;
-    --gradient-end: #e8956e;
-  }
-
   * { margin: 0; padding: 0; box-sizing: border-box; }
-
   body {
     background: var(--bg);
     color: var(--text);
@@ -66,13 +38,10 @@
     line-height: 1.8;
     -webkit-font-smoothing: antialiased;
   }
-
   .header {
     padding: 56px 24px 40px;
     text-align: center;
-    position: relative;
   }
-
   .header::after {
     content: '';
     display: block;
@@ -82,7 +51,6 @@
     border-radius: 2px;
     margin: 28px auto 0;
   }
-
   .logo {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 13px;
@@ -92,17 +60,13 @@
     color: var(--accent);
     margin-bottom: 20px;
   }
-
   h1 {
-    font-family: 'Georgia', serif;
     font-size: 36px;
     font-weight: 400;
     color: var(--heading);
-    text-wrap: balance;
     letter-spacing: -0.5px;
     line-height: 1.3;
   }
-
   .last-updated {
     color: var(--muted);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -110,13 +74,11 @@
     letter-spacing: 0.5px;
     margin-top: 16px;
   }
-
   .container {
     max-width: 620px;
     margin: 0 auto;
     padding: 0 24px 80px;
   }
-
   .intro {
     font-size: 18px;
     color: var(--muted);
@@ -127,7 +89,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   h2 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 12px;
@@ -140,39 +101,18 @@
     padding-bottom: 8px;
     border-bottom: 1px solid var(--border);
   }
-
-  p {
-    margin-bottom: 14px;
-  }
-
-  ul {
-    margin-bottom: 16px;
-    padding-left: 0;
-    list-style: none;
-  }
-
-  li {
-    margin-bottom: 10px;
-    padding-left: 20px;
-    position: relative;
-  }
-
+  p { margin-bottom: 14px; }
+  ul { margin-bottom: 16px; padding-left: 0; list-style: none; }
+  li { margin-bottom: 10px; padding-left: 20px; position: relative; }
   li::before {
     content: '';
     position: absolute;
-    left: 0;
-    top: 11px;
-    width: 6px;
-    height: 6px;
+    left: 0; top: 11px;
+    width: 6px; height: 6px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
   }
-
-  li strong {
-    color: var(--heading);
-    font-weight: 600;
-  }
-
+  li strong { color: var(--heading); font-weight: 600; }
   .contact-box {
     margin-top: 52px;
     padding: 32px;
@@ -183,27 +123,15 @@
     position: relative;
     overflow: hidden;
   }
-
   .contact-box::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 0; left: 0; right: 0;
     height: 3px;
     background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
   }
-
-  .contact-box h2 {
-    margin-top: 0;
-    border-bottom: none;
-    text-align: center;
-  }
-
-  .contact-box p {
-    margin-bottom: 8px;
-  }
-
+  .contact-box h2 { margin-top: 0; border-bottom: none; text-align: center; }
+  .contact-box p { margin-bottom: 8px; }
   .email-link {
     display: inline-block;
     margin-top: 12px;
@@ -215,14 +143,9 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0.3px;
     transition: opacity 0.2s;
   }
-
-  .email-link:hover {
-    opacity: 0.85;
-  }
-
+  .email-link:hover { opacity: 0.85; }
   .footer {
     text-align: center;
     padding: 40px 24px;
@@ -234,16 +157,15 @@
     margin: 0 auto;
   }
 </style>
-
+</head>
+<body>
 <div class="header">
   <div class="logo">Mingo</div>
   <h1>Privacy Policy</h1>
   <p class="last-updated">Last updated July 25, 2026</p>
 </div>
-
 <div class="container">
   <p class="intro">Mingo is a social app that helps people meet and connect. This policy explains what information we collect, how we use it, and your choices.</p>
-
   <h2>Information We Collect</h2>
   <p>When you use Mingo, we may collect the following:</p>
   <ul>
@@ -252,7 +174,6 @@
     <li><strong>Messages</strong> — text conversations you have with your matches</li>
     <li><strong>Usage data</strong> — how you interact with the app, such as features used and time spent</li>
   </ul>
-
   <h2>How We Use Your Information</h2>
   <ul>
     <li>To create and manage your account</li>
@@ -261,17 +182,14 @@
     <li>To improve the app experience and fix issues</li>
     <li>To send important notifications about your account</li>
   </ul>
-
   <h2>Data Storage</h2>
   <p>Your data is stored securely using Google Firebase, which provides industry-standard encryption and security measures. We do not sell your personal information to any third party.</p>
-
   <h2>Data Sharing</h2>
   <p>We do not share your personal data with third parties, except:</p>
   <ul>
     <li>When required by law or legal process</li>
     <li>With service providers that help us operate the app, such as Firebase for secure data storage and phone verification</li>
   </ul>
-
   <h2>Your Rights</h2>
   <p>You have the right to:</p>
   <ul>
@@ -279,20 +197,16 @@
     <li>Delete your account and all associated data by contacting us</li>
     <li>Request a copy of your personal data</li>
   </ul>
-
   <h2>Children's Privacy</h2>
   <p>Mingo is not intended for users under the age of 18. We do not knowingly collect personal data from children.</p>
-
   <h2>Changes to This Policy</h2>
   <p>We may update this policy from time to time. Significant changes will be communicated through the app.</p>
-
   <div class="contact-box">
     <h2>Contact Us</h2>
     <p>Questions about this policy or your data?</p>
     <a class="email-link" href="mailto:lightaura625@gmail.com">lightaura625@gmail.com</a>
   </div>
 </div>
-
-<div class="footer">
-  &copy; 2026 Mingo. All rights reserved.
-</div>
+<div class="footer">&copy; 2026 Mingo. All rights reserved.</div>
+</body>
+</html>
