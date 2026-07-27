@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shibi Gym — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #f2f4f6;
+    --text: #1c2530;
+    --muted: #6b7a8d;
+    --accent: #22c55e;
+    --card-bg: #ffffff;
+    --border: #dfe4ea;
+    --heading: #111820;
+    --gradient-start: #22c55e;
+    --gradient-end: #16a34a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1318;
+      --text: #cdd5de;
+      --muted: #6b7a8d;
+      --accent: #4ade80;
+      --card-bg: #181f28;
+      --border: #252e3a;
+      --heading: #e8ecf0;
+      --gradient-start: #4ade80;
+      --gradient-end: #22c55e;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 17px;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  .header {
+    padding: 56px 24px 40px;
+    text-align: center;
+  }
+  .header::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    border-radius: 2px;
+    margin: 28px auto 0;
+  }
+  .logo {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--heading);
+    letter-spacing: -0.5px;
+    line-height: 1.3;
+  }
+  .last-updated {
+    color: var(--muted);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-top: 16px;
+  }
+  .container {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+  .intro {
+    font-size: 18px;
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 44px;
+    text-align: center;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-top: 44px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  p { margin-bottom: 14px; }
+  ul { margin-bottom: 16px; padding-left: 0; list-style: none; }
+  li { margin-bottom: 10px; padding-left: 20px; position: relative; }
+  li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 11px;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  }
+  li strong { color: var(--heading); font-weight: 600; }
+  .contact-box {
+    margin-top: 52px;
+    padding: 32px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .contact-box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+  }
+  .contact-box h2 { margin-top: 0; border-bottom: none; text-align: center; }
+  .contact-box p { margin-bottom: 8px; }
+  .email-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 28px;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .email-link:hover { opacity: 0.85; }
+  .footer {
+    text-align: center;
+    padding: 40px 24px;
+    color: var(--muted);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 13px;
+    border-top: 1px solid var(--border);
+    max-width: 620px;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="logo">Shibi Gym</div>
+  <h1>Privacy Policy</h1>
+  <p class="last-updated">Last updated July 27, 2026</p>
+</div>
+<div class="container">
+  <p class="intro">Shibi Gym is a fitness companion app with a mascot coach that helps you build workout habits. This policy explains what information we collect, how we use it, and your choices.</p>
+  <h2>Information We Collect</h2>
+  <p>When you use Shibi Gym, we may collect the following:</p>
+  <ul>
+    <li><strong>Google account info</strong> — your name, email, and profile photo when you sign in with Google</li>
+    <li><strong>Fitness data</strong> — your height, weight, workout logs, and training preferences</li>
+    <li><strong>Reminder settings</strong> — your chosen workout days and notification times</li>
+    <li><strong>Music files</strong> — we access local music on your device for the playlist feature (files stay on your device)</li>
+  </ul>
+  <h2>How We Use Your Information</h2>
+  <ul>
+    <li>To create and manage your account</li>
+    <li>To track your workout progress</li>
+    <li>To send workout reminder notifications at your chosen times</li>
+    <li>To provide personalized coach tips</li>
+    <li>To improve the app experience</li>
+  </ul>
+  <h2>Data Storage</h2>
+  <p>Your data is stored securely using Google Firebase, which provides industry-standard encryption and security measures. Music files are only accessed locally on your device and are never uploaded to our servers. We do not sell your personal information to any third party.</p>
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Storage access</strong> — to read your local music files for the playlist feature</li>
+    <li><strong>Notifications</strong> — to send workout reminders</li>
+    <li><strong>Microphone</strong> — to enable the real-time audio visualizer for the music player</li>
+  </ul>
+  <h2>Data Sharing</h2>
+  <p>We do not share your personal data with third parties, except:</p>
+  <ul>
+    <li>When required by law or legal process</li>
+    <li>With service providers that help us operate the app, such as Firebase for secure data storage and authentication</li>
+  </ul>
+  <h2>Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li>View and edit your profile and fitness data at any time within the app</li>
+    <li>Delete your account and all associated data by contacting us</li>
+    <li>Request a copy of your personal data</li>
+  </ul>
+  <h2>Children's Privacy</h2>
+  <p>Shibi Gym is not intended for users under the age of 13. We do not knowingly collect personal data from children.</p>
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. Significant changes will be communicated through the app.</p>
+  <div class="contact-box">
+    <h2>Contact Us</h2>
+    <p>Questions about this policy or your data?</p>
+    <a class="email-link" href="mailto:lightaura625@gmail.com">lightaura625@gmail.com</a>
+  </div>
+</div>
+<div class="footer">&copy; 2026 Shibi Gym. All rights reserved.</div>
+</body>
+</html>
